@@ -56,8 +56,8 @@ h1 {
     margin-top: -100%;
 }
 .p {
-    transform-origin: left;
-    transform: rotate(0deg);
+    transform-origin: left; /* O eixo do ponteiro está na esquerda fazendo com que o ponteiro se mova corretamente */
+    transform: rotate(0deg); /* No css o ponto 0º é alinhado à esquerda e não para cima*/
     border-radius: 50%;
     position: absolute;
 }
